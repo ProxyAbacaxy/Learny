@@ -4,7 +4,7 @@
 body {
    background-color: #D4D4D4;
 }
-a {
+nav.menu a {
     
     
     text-decoration: none;
@@ -15,14 +15,11 @@ a {
     opacity: 1;
     transition: 1s;
 }
-a:hover {
+nav.menu a:hover {
     color: red;
 }
 li {
     list-style: none;
-}
-nav.menu {
-    
 }
 h1 {
     color: rgba(53, 80, 233, 0.637);
@@ -35,4 +32,16 @@ header {
     background-color: #1c2842;
     border: solid 0px;
     margin-bottom: 50px;
+}
+a#conteudo {
+    text-decoration: none;
+    color: #1E3F66;
+    text-transform: uppercase;
+    margin: 0px 100px 0px 100px;
+    opacity: 1;
+    transition: 1s;
+    text-align: left;
+}
+a#conteudo:hover {
+    color: red;
 }
