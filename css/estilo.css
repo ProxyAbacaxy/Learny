@@ -1,0 +1,26 @@
+#all {
+    text-align: center;
+}
+body {
+    background-color: #2E2E2E;
+}
+a {
+    
+   
+    text-decoration: none;
+    color: aqua;
+    float: left;
+    text-transform: uppercase;
+    margin: 10px 50px 0px 50px;
+}
+li {
+    list-style: none;
+}
+nav.menu {
+    background-color: #1c2842;
+    border: solid 0px;
+    margin-bottom: 100px;
+}
+h1 {
+    color: rgba(127, 255, 255, 0.637);
+}
