@@ -40,8 +40,35 @@ a#conteudo {
     margin: 0px 100px 0px 100px;
     opacity: 1;
     transition: 1s;
-    text-align: left;
+    
 }
 a#conteudo:hover {
+    color: red;
+}
+figure {
+    position: absolute;
+    right: -2px;
+    top: 60px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 100px;
+    transition: 1s;
+}
+a:hover {
+    color: darkgray;
+}
+a#perfil {
+    text-decoration: none;
+    color: #1E3F66;
+    text-transform: uppercase;
+    margin: 0px 100px 0px 100px;
+    opacity: 1;
+    transition: 1s;
+    text-align: left;
+}
+a#perfil:hover {
     color: red;
 }
