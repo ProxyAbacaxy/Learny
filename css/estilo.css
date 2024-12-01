@@ -1,5 +1,8 @@
 #all {
     text-align: center;
+    border: solid 0px;
+    box-sizing: border-box;
+    
 }
 body {
    background-color: #D4D4D4;
@@ -71,4 +74,9 @@ a#perfil {
 }
 a#perfil:hover {
     color: red;
+}
+footer {
+    background-color: #1c2842;
+    text-align: left;
+    color: aliceblue;
 }
